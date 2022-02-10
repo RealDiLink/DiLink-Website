@@ -1,0 +1,25 @@
+html {
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.15;   
+    scroll-behavior: smooth;
+
+    /*background-color: #121212;*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*cursor cirle*/
+#mouse-circle {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin: -32px 0 0 -32px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    pointer-events: none;
+
+    z-index: 20;
+}

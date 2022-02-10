@@ -1,0 +1,94 @@
+#whoami {
+    background-color: #353637;
+    height: 502.5px;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 75px;
+
+    overflow: hidden;/* ce qui dépasse = non visible*/
+}
+.nom-prenom{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.whoami-container {
+    height: 100%;
+}
+
+.whoami-row {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%;
+}
+
+.whoami-img{
+    text-align: center;
+}
+
+.whoami-text-img {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    color:  #FFC300;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*centrer l'image au milieu du conteneur*/
+
+    text-align: center;
+    opacity: 0%;
+    transition: ease-in-out .3s;
+}
+
+.whoami-img-container{
+    height: 502.5px;
+    width: 502.5px;
+
+    padding-top: 2.2%;
+    padding-left: 4%;
+    margin-left: 15%;
+    position: relative;
+}
+
+.hover-container {
+    height: 462px;
+    width: 462px;
+    position: relative;
+
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.kena-img{
+    max-width:100%;
+    max-height:100%;
+
+    border-radius: 50%;
+    transition: ease-in-out .3s;
+}
+
+.hover-container:hover .kena-img{
+    border-radius: 5%;
+    filter: blur(6px) saturate(25%);/*flouter image + baisser la saturation de celle ci*/
+}
+
+.hover-container:hover .whoami-text-img{
+    opacity: 100%;
+}
+
+.whoami-text{
+    padding-top: 10%;
+    margin-right: 10%;
+    color:  #dee2e4;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+}
+
+

@@ -1,0 +1,52 @@
+#aboutme {
+    background-color: #485563;
+    height: 502.5px;
+    
+    padding-top: 1%;/*padding = distance entre le rebord spécifié et l'élement à l'intérieur de son conteneur*/
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    overflow: hidden; /*ce qui dépasse ne sera pas visible*/
+}
+
+.aboutme-container {
+    height: 100%;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding-right: 20%;
+}
+
+.aboutme-h{
+    text-align: center; /*aligner le text au centre*/
+    color: #dee2e4;
+    font-size: xx-large;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme-p{
+    text-align: left;
+    color: #dee2e4;
+    font-size: x-large;
+    line-height: 1.3;/*hauteur entre les lignes*/
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.aboutme-p > a{
+    color:  #FFC300;
+    text-decoration: underline;
+}
+
+.aboutme-p > a:visited{
+    color:  #FFC300;
+    text-decoration: underline;
+}
+
+.aboutme-p > a:hover{
+    color:  #FFC300;
+    font-weight: bold;
+}
+

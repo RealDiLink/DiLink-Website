@@ -1,0 +1,86 @@
+#coding-projects{
+    height: 750px;
+    position: relative;
+    margin-top: 75px;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    background-color: #353637;
+}
+
+.coding-projects-container{
+    height: 100%;
+    width: 100%;
+}
+
+.coding-projects-row{
+    height: 100%;
+    width: 100%;
+
+    display: grid; /*séparer le conteneur en grilles*/
+    grid-template-columns: 50% 50% 50% 50%;
+
+}
+
+.code-explanation{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    overflow-y: auto; /*si texte qui dépasse -> scrollbar visible*/
+
+    font-family: 'Roboto', sans-serif;
+    color: #dee2e4;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.code-integration{
+    height: 100%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+}
+
+.tabulation{
+    margin-left: 5%;
+}
+
+.tabulation2{
+    margin-left: 5%;
+}
+
+.code-explanation > h2{
+    font-size: xx-large;
+    color: #dee2e4;
+
+    margin-bottom: 3%;
+}
+
+.caution {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.run-code{
+    margin-left: 5%;
+    line-height: 1.8;
+}
+
+.run-code-explanation{
+    line-height: 1.8;
+}
+
+.code-explanation > h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: xxx-large;
+}
+
+
+

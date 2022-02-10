@@ -1,0 +1,131 @@
+#topbar {
+    background-color: #485563;
+    position: fixed; /*le conteneur ne bouge pas*/
+    overflow: hidden;/* ce qui dépasse sera invisible*/
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    z-index: 10;/*ordre de priorité de la visibilité des conteneurs (si ils superposé)*/
+}
+
+.navbar {
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dilink{
+    height: 55px;
+    width: 260px;
+    margin-left: 10px;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.navbar-item {
+    height: 55px;
+    float: right;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+
+.navitem {
+    list-style-type: none; /*enlever le petit rond des listes html car ici pas but premier*/
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: auto;
+    padding-top: 10.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.button{
+    font-family: 'Cabin Condensed', sans-serif;
+    height: 34.5px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #29323c;
+    
+    cursor: pointer; /*le curseur change si il est sur le boutton*/
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px; /*radius de la bordure = 50% soit un rond*/
+    moz-transition: all .4s ease-in-out;/*transition pour mozzilla*/
+    -o-transition: all .4s ease-in-out;/*transition de 4sec*/
+    -webkit-transition: all .4s ease-in-out;/*transition de 4sec*/
+    transition: all .4s ease-in-out; /*transition de 4sec*/
+
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);/* dégradé de couleur*/
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.button-dilink {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 45px;    
+    color: #29323c;
+
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    padding-left: 66px;
+    padding-right: 66px;
+
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button-dilink:focus {
+    outline: none;
+}
+
+.button-dilink:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+
+a{
+    text-decoration:none;
+}
+
+/*
+font-family: 'Cabin Condensed', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Montserrat', sans-serif;
+
+background-color: #1e1a3e;
+*/
